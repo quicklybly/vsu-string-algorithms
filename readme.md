@@ -7,4 +7,10 @@ Implementation of various string algorithms in kotlin
 * prefix function
     * naive
     * linear
+* z function
+    * naive
+    * linear
 * kmp
+    * based on prefix function
+    * based on z function
+
