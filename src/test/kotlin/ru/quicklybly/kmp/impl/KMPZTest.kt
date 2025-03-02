@@ -1,12 +1,13 @@
-package ru.quicklybly.kmp
+package ru.quicklybly.kmp.impl
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
-import ru.quicklybly.prefixfunction.impl.LinearPrefixFunction
+import ru.quicklybly.kmp.KMP
+import ru.quicklybly.zfunction.impl.LinearZFunction
 
-class KMPTest {
-    private val prefixFunction = LinearPrefixFunction()
-    private val kmp = KMP(prefixFunction)
+class KMPZTest {
+    private val zFunction = LinearZFunction()
+    private val kmp: KMP = KMPZ(zFunction)
 
     @Test
     fun findAllOccurrences() {
