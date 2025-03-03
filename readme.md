@@ -7,6 +7,7 @@ Implementation of various string algorithms in kotlin
 * prefix function
     * naive
     * linear
+    * modified prefix function
 * z function
     * naive
     * linear

@@ -1,5 +1,5 @@
 package ru.quicklybly.kmp
 
-interface KMP {
-    fun findAllOccurrences(string: String, pattern: String): List<Int>
-}
+import ru.quicklybly.FindAllOccurrences
+
+interface KMP : FindAllOccurrences
