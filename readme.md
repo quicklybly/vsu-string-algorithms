@@ -14,4 +14,4 @@ Implementation of various string algorithms in kotlin
 * kmp
     * based on prefix function
     * based on z function
-
+    * umom (without #)
