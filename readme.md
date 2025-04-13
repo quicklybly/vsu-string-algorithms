@@ -15,3 +15,4 @@ Implementation of various string algorithms in kotlin
     * based on prefix function
     * based on z function
     * umom (without #)
+* boyer-moore with bad character and good suffix
