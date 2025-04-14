@@ -16,3 +16,4 @@ Implementation of various string algorithms in kotlin
     * based on z function
     * umom (without #)
 * boyer-moore with bad character and good suffix
+* karp-rabin using polynomial hashing
