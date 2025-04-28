@@ -17,3 +17,4 @@ Implementation of various string algorithms in kotlin
     * umom (without #)
 * boyer-moore with bad character and good suffix
 * karp-rabin using polynomial hashing
+* ukkonen's algorithm for building suffix trie
